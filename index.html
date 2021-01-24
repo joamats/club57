@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link href="fonts/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="icon" type="images/png" href="images/favicon.png"/>
     <title>João Matos</title>
 </head>
+
 <body>
     <header>
-        <nav class="header">
+        <nav id="header">
             <a href="#Education">Education</a>
             <a href="#Experience">Experience</a>
             <a href="#Portfolio">Portfolio</a>
@@ -19,74 +23,114 @@
         </nav>
     </header> 
 
-    <section>
-        <h1>João Matos</h1>
-        <img src="images/profile.png" alt="logo" width=100>
-        <b>Porto, Portugal</b><br>
-        MSc Student at FEUP, Biomedical Engineering
+    <section id="Profile">
+        <div class="container">
+            <img src="images/profile.png" alt="logo" id="profilePic" width = 250><br>
+            <h1>João Matos <img src="images/favicon.png" alt="logo" id="favicon" width = 40></h1>
+            <h4>Porto, Portugal ~ Biomedical Engineering  </h4>
+        </div>
     </section>
 
-    <section>
-        <h2 id="Education">Education</h2>
-        <ul>
-            <li>
-                Faculty of Engineering and Architecture, Ghent University
-                <span>
-                    February 2021 - Present
-                </span>
-                <p>
-                    ERASMUS+ Internship, at <a href = "http://medisip.ugent.be/">MEDISIP</a>
-                    Diagnosing epilepsy from EEG recordings after a first seizure
-                </p>
-            </li>
-            <li>
-                Faculty of Engineering, University of Porto
-                Biomedical Engineering
-                <span>
-                    September 2017 - Present
-                </span>
-                <p>
-                    Master in Bioengineering - Biomedical Engineering
-                </p>
-            </li>
-            <li>
-                Aurélia de Sousa Secondary School
-                <span>
-                    September 2011 - July 2017
-                </span>
-                <p>
-                    Best Porto Student 2017, with final grade 20.0/20.0
-                </p>
-            </li>
-        </ul>
+    <section id="Education">
+        <div class="container">
+            <h2>Education <img src="images/favicon.png" alt="logo" id="favicon" width = 20></h2>
+            <ul>
+                <li>
+                    <div class = "details">
+                        <b>Present</b><br>
+                        February 2021<br><br>
+                        <i class="fas fa-map-marker-alt"></i> Ghent, Belgium
+                    </div>
+                    <div class = "text">
+                        <a href="https://www.ugent.be/ea/en">Faculty of Engineering and Architecture, Ghent University</a><br>
+                        ERASMUS+ Internship, at <a href = "http://medisip.ugent.be/" target="_blank">MEDISIP</a><br><br>
+                        Diagnosing epilepsy from EEG recordings after a first seizure
+                        </p>
+                    </div>
+                    
+                    <div class = "logo">
+                        <img src="images/ghent.png" alt="Ghent University">
+                    </div>
+                </li>
+                <li>
+                    <div class = "details">
+                        <b>Present</b><br>
+                        October 2020<br><br>
+                        <i class="fas fa-map-marker-alt"></i> Porto, Portugal
+                    </div>
+                    <div class = "text">
+                        <a href="https://sigarra.up.pt/feup/en/web_page.inicial">Faculty of Engineering, University of Porto</a></a><br>
+                        Master in Bioengineering - Biomedical Engineering<br>
+                        <p>
+                            The syllabus is very wide, including image and signal processing, machine learning, programming (microcontrollers, mobile and web), mathematics, electronics, biomedical instrumentation, biomechanics, robotics, biological and medical subjects.
+                        </p>
+                        <br>
+                        Current Grade: 17.3 / 20.0 (A)
+                    </div>
+                    <div class = "logo">
+                        <img src="images/uporto.png" alt="Porto University">
+                    </div>
+                </li>
+                <li>
+                    <div class = "details">
+                        July 2017<br>
+                        September 2011<br><br>
+                        <i class="fas fa-map-marker-alt"></i> Porto, Portugal
+                    </div>
+                    <div class = "text">
+                        <a href="http://ae-aureliadesousa.com/" target="_blank">Aurélia de Sousa Secondary School</a><br>
+                        Scientific-Humanistic Subjects<br><br>
+                        Final Grade: 20.0 / 20.0 (A+)
+                        </p>
+                    </div>
+                    <div class = "logo">
+                        <img src="images/aureliasousa.png" alt="Aurélia de Sousa">
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
 
-    <section>
-        <h2 id="Experience">Experience</h2>
-        <ul>
-            <li>
-                <a href = "http://medisip.ugent.be/">MEDISIP</a> - MEDical Image and SIgnal Processing
-                Department of Electronics and Information systems (<a href = "http://www.ugent.be/ea/elis/en">ELIS</a>)
-                <span>
-                    February 2021 - Present
-                </span>
-                <p>
-                    Electrophysiology: Analysis and Comparison of EEG Recording Systems
-                </p>
-            </li>
+    <section id="Experience">
+        <div class="container">
+            <h2>Experience <img src="images/favicon.png" alt="logo" id="favicon" width = 20></h2>
+            <ul>
+                <li>
+                    <div class = "details">
+                        <b>Present</b><br>
+                        February 2021<br><br>
+                        <i class="fas fa-map-marker-alt"></i> Ghent, Belgium
+                    </div>
+                    <div class = "text">
+                        <a href = "http://medisip.ugent.be/" target="_blank">MEDISIP - MEDical Image and SIgnal Processing</a> <br>
+                        at <a href = "http://www.ugent.be/ea/elis/en" target="_blank">ELIS</a> - Department of Electronics and Information systems
+                        <br><br>
+                        <i>Diagnosing epilepsy from EEG recordings after a first seizure</i>
+                    </div>
+                    <div class = "logo">
+                        <img src="images/medisip.png" alt="MEDISIP">
+                    </div>
+                </li>
 
-            <li>
-                <a href="https://inesctec.pt/">INESC TEC</a> - Centre for Biomedical Engineering Research
-                <a href="https://brain.inesctec.pt/">BRAIN Lab</a> - Biomedical Research and Innovation Laboratory
-                <span>
-                    October 2020 - Present
-                </span>
-                <p>
-                    Electrophysiology: Analysis and Comparison of EEG Recording Systems
-                </p>
-            </li>
-        </ul>
-        
+                <li>
+                    <div class = "details">
+                        <b>Present</b><br>
+                        October 2020<br><br>
+                        <i class="fas fa-map-marker-alt"></i> Porto, Portugal
+                    </div>
+                    <div class = "text">
+                        <a href="https://brain.inesctec.pt/" target="_blank">BRAIN Lab - Biomedical Research and Innovation Laboratory</a> <br>
+                        at <a href="https://inesctec.pt/" target="_blank">INESC TEC</a> - Centre for Biomedical Engineering Research
+                        <br><br>
+                        <i>Electrophysiology: Analysis and Comparison of EEG Recording Systems</i>
+                    </div>  
+                    <div class = "logo">
+                        <img src="images/inesctec.png" alt="INESCTEC">
+                    </div>
+
+                </li>
+            </ul>
+        </div>
     </section>
 
     <section>
@@ -94,10 +138,12 @@
         <ul>
             <li>
                 <b>Computer-Aided Diagnosis</b>
-
+                <a href="https://github.com/joamats/feup-MachineLearning" target="_blank">
+                    <img src="images/github.png" alt="github logo" width=30>
+                </a>
             </li>
             <li>
-                <b>Information Systems Engineering/b>
+                <b>Information Systems Engineering</b>
                 
             </li>
             <li>
@@ -112,6 +158,10 @@
         </ul>
     </section>
 
+<footer>
+    <img src="images/favicon.png" alt="logo" id="favicon" width = 20><br><br>
+    &copy; 2021 João Matos
+</footer>
 
 </body>
 </html>
