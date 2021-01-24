@@ -57,7 +57,7 @@ section {
 footer{
     text-align: center;
     padding: 2rem 1rem;
-    font-size: 1.1rem;
+    font-size:
 }
 
 h1{
@@ -85,8 +85,7 @@ b {
     border-radius: 50%;   
 }
 
-#Education {
-    height: 100vh;
+#Education, #Portfolio {
     background-color: #f5f5f5;
 }
 
@@ -102,19 +101,15 @@ ul{
 }
 
 .details{
-    margin: 1rem 10% 1rem 0%;
+    margin: 1rem;
+    padding-top: 0.4rem;
     grid-column: 1;
 
 }
 
 .text {
-    margin: 1rem 10% 1rem 10%;
+    margin: 1rem 2rem 1rem 0.5rem;
     grid-column: 2/3;
-    margin-right: 2%;
-}
-
-.text p{
-    margin-right: 2rem;
 }
 
 .text a:first-of-type {
@@ -131,6 +126,7 @@ ul{
 .logo img {
     max-height: 100%;
     max-width: 100%;
+    min-width: 50%;
     width: auto;
     height: auto;
     position: absolute;
