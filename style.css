@@ -15,6 +15,7 @@ html {
     text-decoration: none;
     
     --gray-dark: #252525;
+    --gray-light: #f5f5f5;
     --blue-dark: #09427d;
     --orange-dark: #df520d;
 
@@ -57,7 +58,8 @@ section {
 footer{
     text-align: center;
     padding: 2rem 1rem;
-    font-size:
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 h1{
@@ -79,14 +81,15 @@ b {
     color: var(--orange-dark);
 }
 
+
 #profilePic {
     margin-top: 0;
     object-fit: cover;
     border-radius: 50%;   
 }
 
-#Education, #Portfolio {
-    background-color: #f5f5f5;
+#Education, #Portfolio, #Associations {
+    background-color: var(--gray-light);
 }
 
 li {
@@ -102,9 +105,20 @@ ul{
 
 .details{
     margin: 1rem;
-    padding-top: 0.4rem;
+    padding-top: 0.3rem;
     grid-column: 1;
 
+}
+
+.details a:first-of-type {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--orange-dark);
+}
+
+.details>span{
+    font-weight: 600;
+    color:var(--gray-dark);
 }
 
 .text {
@@ -112,7 +126,7 @@ ul{
     grid-column: 2/3;
 }
 
-.text a:first-of-type {
+.text>a:first-of-type {
     font-size: 1.5rem;
 }
 
@@ -137,6 +151,31 @@ ul{
     margin: auto;
 }
 
+#Portfolio .text{
+    grid-column: 2/4;
+}
 
+#Portfolio .withLogo>.text {
+    grid-column: 2/3;
+}
+
+#Portfolio .withLogo>.logo {
+    grid-column: 3;
+}
+
+#Portfolio .withLogo>.text {
+    margin-right: 0;
+}
+
+#Portfolio .withLogo>.logo img {
+    max-width: 50%;
+}
+
+
+
+i>a, i>span {
+    color: var(--gray-dark);
+    font-weight: 600;
+}
 
 
