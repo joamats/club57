@@ -80,6 +80,12 @@ footer{
     font-weight: bold;
 }
 
+footer p{
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
 h1{
     font-size: 6rem;
     margin-bottom: 2rem;
@@ -106,7 +112,7 @@ b {
     border-radius: 50%;   
 }
 
-#Education, #Portfolio, #Associations {
+#Education, #Portfolio, #Associations, #Contacts {
     background-color: var(--gray-light);
 }
 
@@ -237,6 +243,19 @@ i>a, i>span {
      grid-template-columns: 1fr;
 }
 
+#Awards li, #Contacts li{
+    grid-template-columns: 1fr;
+}
+
+ #Contacts .icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem 0 2rem 0;
+}
+
+#Contacts a>img {
+    width: 2rem;
+}
 
 
 
