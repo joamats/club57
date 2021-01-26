@@ -251,15 +251,13 @@ i>a, i>span {
 .icons{
     display: flex;
     justify-content: space-evenly;
-    margin: 4rem 0 2rem 0;
+    margin: 3rem 0 2rem 0;
 }
 
 .icons img {
-    height: 2.5rem;
-    max-width: 2.5rem;
+    height: 3rem;
 }
 
-
-
-
-
+#Skills p{
+    margin-left: 3rem;
+}

@@ -45,7 +45,7 @@ button{
   align-items: center;
 } 
 
-#Contacts a>img:hover {
+.icons img:hover {
     transform: scale(1.2);
 }
 
