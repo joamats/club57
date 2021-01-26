@@ -59,14 +59,15 @@ section {
     padding: 2rem 1rem;
 }
 
-#header .language {
+#header #language {
     margin-left: 1rem;
     border-radius: 100%;
     border: solid 1px var(--orange-dark);
     padding: 0.5rem;
+    display: none; 
 }
 
-#header .language:hover {
+#header #language:hover {
     color: white;
     background-color: var(--orange-dark);
     border: solid 1px var(--orange-dark);
@@ -243,21 +244,20 @@ i>a, i>span {
      grid-template-columns: 1fr;
 }
 
-#Awards li, #Contacts li{
+#Awards li{
     grid-template-columns: 1fr;
 }
 
- #Contacts .icons{
+.icons{
     display: flex;
     justify-content: space-evenly;
     margin: 4rem 0 2rem 0;
 }
 
-#Contacts a>img {
-    width: 2rem;
+.icons img {
+    height: 2.5rem;
+    max-width: 2.5rem;
 }
-
-
 
 
 
