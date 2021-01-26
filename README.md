@@ -1,4 +1,4 @@
-# <img src="images/favicon.png" alt="logo" id="favicon" width = 20> **João Matos' Personal Website**
+# <img src="images/favicon.png" alt="logo" id="favicon" width = 45> **João Matos' Personal Website**
 
 This website was developed with the purpose of sharing my life pathway, throughout my academic experiences, research internships, students' associations I've been involved, and projects I developed in University.
 
