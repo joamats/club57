@@ -6,4 +6,4 @@ The used technologies were HTML, CSS, and JavaScript. Google Analytics was set u
 
 As for the next steps of this project, I'm planning to include a Portuguese version and to make my website responsive to smaller devices, such as mobile devices.
 
-Please feel free to open any issue or to send me a message if you find any problem. Cheers!
+Please feel free to open any issue or to send me a message to joaocarlosm00@gmail.com if you find any problem. Cheers!
