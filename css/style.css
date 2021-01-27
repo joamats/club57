@@ -259,6 +259,7 @@ i>a, i>span {
 
 .icons img {
     height: 3rem;
+    max-width: 100%;
 }
 
 #Skills p{
